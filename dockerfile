@@ -14,4 +14,4 @@ RUN go get google.golang.org/grpc/grpclog
 RUN go get google.golang.org/grpc
 
 RUN go build -o chat_app_grpc .
-CMD ./docker_example
+CMD ./chat_app_grpc
