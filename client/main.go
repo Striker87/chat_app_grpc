@@ -1,7 +1,6 @@
 package main
 
 import (
-	"../proto"
 	"bufio"
 	"context"
 	"crypto/sha256"
@@ -13,6 +12,8 @@ import (
 	"os"
 	"sync"
 	"time"
+
+	"github.com/Striker87/chat_app_grpc/proto"
 )
 
 var client proto.BroadcastClient
