@@ -1,14 +1,15 @@
 package main
 
 import (
-	"./proto"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	glog "google.golang.org/grpc/grpclog"
 	"log"
 	"net"
 	"os"
 	"sync"
+
+	"github.com/Striker87/chat_app_grpc/proto"
+	"golang.org/x/net/context"
+	"google.golang.org/grpc"
+	glog "google.golang.org/grpc/grpclog"
 )
 
 var grpcLog glog.LoggerV2
